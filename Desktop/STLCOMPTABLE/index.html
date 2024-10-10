@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STC Audit et Conseil - Métropole Sud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>STC Audit et Conseil - Métropole Sud</h1>
+            <p>1 Rue Georges Potié, 59120 Loos</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#patron">Le Patron</a></li>
+            <li><a href="#horaires">Horaires</a></li>
+            <li><a href="#avis">Avis</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="presentation">
+            <h2>Présentation de STC Audit et Conseil</h2>
+            <p>STC Audit et Conseil est un cabinet spécialisé dans l'audit et la gestion financière. Situé à Loos, notre équipe s'engage à fournir des solutions sur mesure pour accompagner les entreprises de toutes tailles.</p>
+            <button onclick="toggleDetails('presentationDetails')" class="btn-toggle">En savoir plus</button>
+            <div id="presentationDetails" class="details hidden">
+                <p>Notre mission est de guider les entreprises vers une gestion optimisée de leurs finances tout en respectant les normes réglementaires et fiscales. Nous offrons une expertise qui s'adapte aux besoins uniques de chaque client.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Nos Services</h2>
+            <p>Nous proposons une gamme complète de services pour aider votre entreprise à réussir :</p>
+            <ul class="services-list">
+                <li>Expertise comptable</li>
+                <li>Audit et conseils financiers</li>
+                <li>Gestion financière personnalisée</li>
+            </ul>
+            <button onclick="toggleDetails('serviceDetails')" class="btn-toggle">Voir plus</button>
+            <div id="serviceDetails" class="details hidden">
+                <p>STC Audit et Conseil offre des solutions sur mesure pour répondre aux besoins spécifiques des entreprises locales. Nos experts se concentrent sur l'optimisation des coûts et la croissance durable.</p>
+            </div>
+        </section>
+
+        <section id="patron">
+            <h2>Le Patron - Présentation</h2>
+            <p><strong>Jean Dupont</strong>, fondateur et directeur de STC Audit et Conseil, est diplômé de l'École Supérieure de Commerce de Paris (ESCP) et détient un Master en Finance. Il a travaillé pendant plus de 20 ans dans des entreprises internationales avant de créer STC.</p>
+            <button onclick="toggleDetails('patronDetails')" class="btn-toggle">Son parcours</button>
+            <div id="patronDetails" class="details hidden">
+                <p>Jean Dupont a commencé sa carrière en tant qu'analyste financier chez une grande banque internationale avant de devenir directeur financier dans une entreprise du CAC 40. Sa passion pour l'optimisation financière et l'innovation l'a poussé à fonder son propre cabinet pour aider les entreprises à réaliser leur plein potentiel.</p>
+            </div>
+        </section>
+
+        <section id="horaires">
+            <h2>Horaires d'ouverture</h2>
+            <ul class="horaires-list">
+                <li>Lundi à Vendredi : 08:30 - 17:00</li>
+                <li>Samedi et Dimanche : Fermé</li>
+            </ul>
+        </section>
+
+        <section id="avis">
+            <h2>Avis des Clients</h2>
+            <p>Moyenne des avis : <strong>3,7/5</strong></p>
+            <button onclick="toggleDetails('avisDetails')" class="btn-toggle">Voir les avis</button>
+            <div id="avisDetails" class="details hidden">
+                <p>"Efficace et professionnel, très bon accompagnement." - Un client satisfait</p>
+                <p>"Manque de communication pour certains dossiers." - Un client déçu</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><strong>Adresse :</strong> 1 Rue Georges Potié, 59120 Loos</p>
+            <p><strong>Téléphone :</strong> 03 62 84 00 05</p>
+            <p><strong>Site web :</strong> <a href="https://www.stc-conseil.com" target="_blank">stc-conseil.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 STC Audit et Conseil. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
